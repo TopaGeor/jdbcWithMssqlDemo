@@ -24,11 +24,11 @@ public class TransactionExample {
 
 
 
-                String query1 = "INSERT INTO Instructor (id, first, last, age, course) VALUES (1000, 'Chris', 'Gavanas', 26, 'Databases')";
-                String query2 = "INSERT INTO Instructor (id, first, last, age, course) VALUES (1001, 'Christos', 'Peristeris', 35, 'I/O')";
-                String query3 = "INSERT INTO Instructor (id, first, last, age, course) VALUES (1002, 'Spyros', 'Argyroiliopoulos', 35, 'Exception Handling')";
-                String query4 = "INSERT INTO Instructor (id, first, last, age, course) VALUES (1003, 'Grigoris', 'Dimopoulos', 25, 'Threads')";
-                String query5 = "INSERT INTO Instructor (id, first, last, age, course) VALUES (1004, 'Yiannis', 'Vlahopoulos', 28, 'Inheritance')";
+                String query1 = "INSERT INTO Instructor (  first, last, age, course) VALUES (  'Chris', 'Gavanas', 26, 'Databases')";
+                String query2 = "INSERT INTO Instructor (  first, last, age, course) VALUES (  'Christos', 'Peristeris', 35, 'I/O')";
+                String query3 = "INSERT INTO Instructor (  first, last, age, course) VALUES (  'Spyros', 'Argyroiliopoulos', 35, 'Exception Handling')";
+                String query4 = "INSERT INTO Instructor (  first, last, age, course) VALUES (  'Grigoris', 'Dimopoulos', 25, 'Threads')";
+                String query5 = "INSERT INTO Instructor (  first, last, age, course) VALUES (  'Yiannis', 'Vlahopoulos', 28, 'Inheritance')";
                 stmt.executeUpdate(query1);
                 stmt.executeUpdate(query2);
                 stmt.executeUpdate(query3);
@@ -41,6 +41,8 @@ public class TransactionExample {
                     // we need to catch the SQLException
                     // that happens during query executions
                     // in order to command the DB to rollback
+
+                    System.out.println("Roll Back took place");
                     conn.rollback();
                 }
             }

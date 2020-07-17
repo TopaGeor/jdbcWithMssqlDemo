@@ -4,6 +4,7 @@ import gr.codehub.testmssql.constants.Constants;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.Statement;
 
 public class InsertExample {
@@ -32,6 +33,20 @@ public class InsertExample {
         stmt.executeUpdate(query3);
         stmt.executeUpdate(query4);
         stmt.executeUpdate(query5);
+
+        String query6 = "INSERT INTO Instructor " +
+                "(first, last, age, course) " +
+                "VALUES (?,?,?,?)";
+
+        PreparedStatement updateSales = conn.prepareStatement(query6);
+
+        updateSales.setString(1, "Dimitris");
+        updateSales.setString(2, "Iracleous");
+        updateSales.setInt(3, 50);
+        updateSales.setString(4, "Java spring");
+        updateSales.executeUpdate();
+
+
 
 
         String queryFormat = "INSERT INTO Player (username, password) VALUES ('Spyros-%s', 'password-%s')";

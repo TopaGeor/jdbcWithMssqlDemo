@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cf22bd4-08c3-4e90-8512-377c11294366" name="Default Changelist" comment="" />
+    <list default="true" id="7cf22bd4-08c3-4e90-8512-377c11294366" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../01. springAcademy-Jan2020/projects/jdbcWithMssqlDemo/src/main/java/gr/codehub/testmssql/dao/CreateDBExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01. springAcademy-Jan2020/projects/jdbcWithMssqlDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01. springAcademy-Jan2020/projects/jdbcWithMssqlDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01. springAcademy-Jan2020/projects/jdbcWithMssqlDemo/src/main/java/gr/codehub/testmssql/CreateReadUpdateDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01. springAcademy-Jan2020/projects/jdbcWithMssqlDemo/src/main/java/gr/codehub/testmssql/CreateReadUpdateDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01. springAcademy-Jan2020/projects/jdbcWithMssqlDemo/src/main/java/gr/codehub/testmssql/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01. springAcademy-Jan2020/projects/jdbcWithMssqlDemo/src/main/java/gr/codehub/testmssql/constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01. springAcademy-Jan2020/projects/jdbcWithMssqlDemo/src/main/java/gr/codehub/testmssql/dao/CreateTablesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01. springAcademy-Jan2020/projects/jdbcWithMssqlDemo/src/main/java/gr/codehub/testmssql/dao/CreateTablesExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01. springAcademy-Jan2020/projects/jdbcWithMssqlDemo/src/main/java/gr/codehub/testmssql/dao/InsertExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01. springAcademy-Jan2020/projects/jdbcWithMssqlDemo/src/main/java/gr/codehub/testmssql/dao/InsertExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01. springAcademy-Jan2020/projects/jdbcWithMssqlDemo/src/main/java/gr/codehub/testmssql/dao/ResultSetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01. springAcademy-Jan2020/projects/jdbcWithMssqlDemo/src/main/java/gr/codehub/testmssql/dao/ResultSetExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01. springAcademy-Jan2020/projects/jdbcWithMssqlDemo/src/main/java/gr/codehub/testmssql/dao/TransactionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01. springAcademy-Jan2020/projects/jdbcWithMssqlDemo/src/main/java/gr/codehub/testmssql/dao/TransactionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01. springAcademy-Jan2020/projects/jdbcWithMssqlDemo/src/main/java/gr/codehub/testmssql/mapper/InstructorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01. springAcademy-Jan2020/projects/jdbcWithMssqlDemo/src/main/java/gr/codehub/testmssql/mapper/InstructorMapper.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +24,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../01. springAcademy-Jan2020/projects/jdbcWithMssqlDemo" />
+  </component>
   <component name="ProjectId" id="1XIxMeS34wien4eJ8XpRMo6Bvho" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -80,25 +94,69 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="380" y="0" width="619" height="728" key="#CreateReadUpdateDelete" timestamp="1594955415549">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="0" width="619" height="728" key="#CreateReadUpdateDelete/0.0.1366.728/-553.-1080.1920.1040@0.0.1366.728" timestamp="1594955415549" />
+    <state x="469" y="68" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1594955245126">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="469" y="68" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728/-553.-1080.1920.1040@0.0.1366.728" timestamp="1594955245126" />
+    <state x="419" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1594955319124">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="419" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/-553.-1080.1920.1040@0.0.1366.728" timestamp="1594955319124" />
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594954984870">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-553.-1080.1920.1040@0.0.1366.728" timestamp="1594954984870" />
-    <state width="1367" height="186" key="GridCell.Tab.0.bottom" timestamp="1594955017878">
+    <state x="469" y="118" key="FileChooserDialogImpl" timestamp="1594955502250">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="186" key="GridCell.Tab.0.bottom/0.0.1366.728/-553.-1080.1920.1040@0.0.1366.728" timestamp="1594955017878" />
-    <state width="1367" height="186" key="GridCell.Tab.0.center" timestamp="1594955017877">
+    <state x="469" y="118" key="FileChooserDialogImpl/0.0.1366.728/-553.-1080.1920.1040@0.0.1366.728" timestamp="1594955502250" />
+    <state x="561" y="261" width="715" height="205" key="Github.ShareDialog" timestamp="1594955568607">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="186" key="GridCell.Tab.0.center/0.0.1366.728/-553.-1080.1920.1040@0.0.1366.728" timestamp="1594955017877" />
-    <state width="1367" height="186" key="GridCell.Tab.0.left" timestamp="1594955017877">
+    <state x="561" y="261" width="715" height="205" key="Github.ShareDialog/0.0.1366.728/-553.-1080.1920.1040@0.0.1366.728" timestamp="1594955568607" />
+    <state x="293" y="61" key="Github.UntrackedFilesDialog" timestamp="1594955580236">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="186" key="GridCell.Tab.0.left/0.0.1366.728/-553.-1080.1920.1040@0.0.1366.728" timestamp="1594955017877" />
-    <state width="1367" height="186" key="GridCell.Tab.0.right" timestamp="1594955017877">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="293" y="61" key="Github.UntrackedFilesDialog/0.0.1366.728/-553.-1080.1920.1040@0.0.1366.728" timestamp="1594955580236" />
+    <state width="1025" height="232" key="GridCell.Tab.0.bottom" timestamp="1594979176587">
+      <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state width="1367" height="186" key="GridCell.Tab.0.right/0.0.1366.728/-553.-1080.1920.1040@0.0.1366.728" timestamp="1594955017877" />
+    <state width="1025" height="232" key="GridCell.Tab.0.bottom/0.0.1024.728@0.0.1024.728" timestamp="1594979176587" />
+    <state width="1367" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728/-553.-1080.1920.1040@0.0.1366.728" timestamp="1594955873593" />
+    <state width="1025" height="232" key="GridCell.Tab.0.center" timestamp="1594979176586">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="1025" height="232" key="GridCell.Tab.0.center/0.0.1024.728@0.0.1024.728" timestamp="1594979176586" />
+    <state width="1367" height="185" key="GridCell.Tab.0.center/0.0.1366.728/-553.-1080.1920.1040@0.0.1366.728" timestamp="1594955873592" />
+    <state width="1025" height="232" key="GridCell.Tab.0.left" timestamp="1594979176586">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="1025" height="232" key="GridCell.Tab.0.left/0.0.1024.728@0.0.1024.728" timestamp="1594979176586" />
+    <state width="1367" height="185" key="GridCell.Tab.0.left/0.0.1366.728/-553.-1080.1920.1040@0.0.1366.728" timestamp="1594955873592" />
+    <state width="1025" height="232" key="GridCell.Tab.0.right" timestamp="1594979176586">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="1025" height="232" key="GridCell.Tab.0.right/0.0.1024.728@0.0.1024.728" timestamp="1594979176586" />
+    <state width="1367" height="185" key="GridCell.Tab.0.right/0.0.1366.728/-553.-1080.1920.1040@0.0.1366.728" timestamp="1594955873593" />
+    <state width="1025" height="232" key="GridCell.Tab.1.bottom" timestamp="1594979176588">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="1025" height="232" key="GridCell.Tab.1.bottom/0.0.1024.728@0.0.1024.728" timestamp="1594979176588" />
+    <state width="1025" height="232" key="GridCell.Tab.1.center" timestamp="1594979176587">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="1025" height="232" key="GridCell.Tab.1.center/0.0.1024.728@0.0.1024.728" timestamp="1594979176587" />
+    <state width="1025" height="232" key="GridCell.Tab.1.left" timestamp="1594979176587">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="1025" height="232" key="GridCell.Tab.1.left/0.0.1024.728@0.0.1024.728" timestamp="1594979176587" />
+    <state width="1025" height="232" key="GridCell.Tab.1.right" timestamp="1594979176588">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state width="1025" height="232" key="GridCell.Tab.1.right/0.0.1024.728@0.0.1024.728" timestamp="1594979176588" />
   </component>
 </project>

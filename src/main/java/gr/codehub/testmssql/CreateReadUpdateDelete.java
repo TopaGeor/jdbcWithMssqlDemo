@@ -7,6 +7,7 @@ public class CreateReadUpdateDelete {
 
     public static void main(String[] args) throws Exception {
 
+        CreateDBExample.main(args);
         CreateTablesExample.main(args);
         InsertExample.main(args);
         ResultSetExample.main(args);

@@ -9,6 +9,7 @@ import java.util.List;
 
 
 import gr.codehub.testmssql.domain.Instructor;
+import gr.codehub.testmssql.mapper.InstructorMapper;
 
 import static gr.codehub.testmssql.constants.Constants.*;
 
@@ -31,7 +32,13 @@ public class ResultSetExample {
 
         String query = "SELECT * FROM Instructor";
         ResultSet resultSet = stmt.executeQuery(query);
+
+        InstructorMapper im = new InstructorMapper();
+
+
         while (resultSet.next()) {
+       //     Instructor instructor1 = im.extractInstructor(     );
+
             Instructor instructor = new Instructor();
             instructor.setId(resultSet.getInt("id"));
             instructor.setFirst(resultSet.getString("first"));

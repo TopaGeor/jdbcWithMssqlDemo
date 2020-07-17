@@ -7,7 +7,8 @@ import java.sql.SQLException;
 
 public class InstructorMapper {
 
-    public Instructor extractInstructor(ResultSet resultSet) throws SQLException {
+    public Instructor extractInstructor(ResultSet resultSet)
+            throws SQLException {
         Instructor instructor = new Instructor();
         instructor.setId(resultSet.getInt("id"));
         instructor.setFirst(resultSet.getString("first"));
